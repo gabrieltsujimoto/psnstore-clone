@@ -1,24 +1,33 @@
 <div class="news-wrapper">
-  <img
-    class="img_banner"
-    src="../../../../../assets/bg_store.jpg"
-    alt="Store banner"
-  />
-  <div class="span-text">
-    <span> Days </span>
-    <span> of </span>
-    <span> Play</span>
+  <div class="news-header">
+    <img
+      id="main-banner"
+      class="img_banner"
+      src="{{ imgUrl }}"
+      alt="Store banner"
+    />
   </div>
   <div>
     <div class="small-sales">
       <div>
         <img
-          src="https://gmedia.playstation.com/is/image/SIEPDC/days-of-play-2025-keyart-01-22apr25$en?$1200px$"
+          (click)="
+            changeImgUrl(
+              'https://gmedia.playstation.com/is/image/SIEPDC/COD-BLOPS-6-Season-4-Keyart-01-06jun25$pt?$1200px$'
+            )
+          "
+          id="img1"
+          src="https://gmedia.playstation.com/is/image/SIEPDC/COD-BLOPS-6-Season-4-Keyart-01-06jun25$pt?$1200px$"
           alt="Game 1"
         />
       </div>
       <div>
         <img
+          (click)="
+            changeImgUrl(
+              'https://gmedia.playstation.com/is/image/SIEPDC/Elden-Ring-Nightreign-Keyart-01-06feb25?$1200px$'
+            )
+          "
           src="https://gmedia.playstation.com/is/image/SIEPDC/Elden-Ring-Nightreign-Keyart-01-06feb25?$1200px$"
           alt="Game 1"
         />
