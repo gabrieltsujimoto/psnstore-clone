@@ -31,7 +31,13 @@
 }
 
 .bar-wrapper_nav-bar_psnlogo {
-  padding: 6px 18px;
+  width: 100%;
+  height: 100%;
+  padding: 8px 20px;
+  > img {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 .bar-wrapper_psnlogo {
@@ -39,6 +45,9 @@
 }
 
 .bar-wrapper_nav-bar_items {
+  font-family: "MontSerrat", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
   > ul {
     display: flex;
     align-items: center;
@@ -47,22 +56,14 @@
     list-style: none;
 
     > li {
-      margin: 0px 12px;
-      font-size: 13px;
+      margin: 0px 18px;
       color: rgb(117, 117, 117);
-      font-weight: bolder;
-      font-family: Arial, Helvetica, sans-serif;
     }
   }
 }
-
-.bar-wrapper_nav-bar_item:hover{
-  color:#0068bd;
-}
-
-.bar-wrapper_nav-bar_items_list > li:hover {
+.bar-wrapper_nav-bar_item:hover {
   cursor: pointer;
-  color: rgb(20, 108, 182);
+  color: rgb(20, 108, 182) !important;
 }
 
 .btnlogin {
@@ -111,5 +112,4 @@
 }
 
 @keyframes easeinout {
-
 }
