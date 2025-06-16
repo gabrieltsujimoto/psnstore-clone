@@ -2,7 +2,7 @@
   max-width: 100%;
   display: flex;
   justify-content: space-between;
-  alin-items: center;
+  align-items: center;
   flex-wrap: wrap;
 }
 
@@ -27,6 +27,7 @@
   display: flex;
   align-items: center;
   min-height: 2rem;
+  position: relative;
 }
 
 .bar-wrapper_nav-bar_psnlogo {
@@ -53,6 +54,10 @@
       font-family: Arial, Helvetica, sans-serif;
     }
   }
+}
+
+.bar-wrapper_nav-bar_item:hover{
+  color:#0068bd;
 }
 
 .bar-wrapper_nav-bar_items_list > li:hover {
@@ -103,4 +108,8 @@
 
 .searchinput:focus {
   outline: none;
+}
+
+@keyframes easeinout {
+
 }

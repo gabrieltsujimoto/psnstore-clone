@@ -1,61 +1,73 @@
 <div class="news-wrapper">
   <div class="news-header">
-    <img
-      id="main-banner"
-      class="img_banner"
-      src="{{ imgUrl }}"
-      alt="Store banner"
-    />
+    <img id="main-banner" class="img_banner" src="{{ imgUrl }}" alt="Store banner" />
+    <div>
+      <img class="img_banner__content" id="img_banner__content" src="https://gmedia.playstation.com/is/image/SIEPDC/COD-BLOPS-6-Season-4-Logo-01-06jun25$pt?$1200px--t$" alt="Black Ops 6 New season Logo" />
+    </div>
   </div>
   <div>
     <div class="small-sales">
       <div>
-        <img
-          (click)="
+        <img (click)="
             changeImgUrl(
-              'https://gmedia.playstation.com/is/image/SIEPDC/COD-BLOPS-6-Season-4-Keyart-01-06jun25$pt?$1200px$'
+              'https://gmedia.playstation.com/is/image/SIEPDC/call-of-duty-black-ops-6-season-4-hero-desktop-01-en-15may25?$4000px$'
             )
-          "
-          id="img1"
+          " id="img1"
           src="https://gmedia.playstation.com/is/image/SIEPDC/COD-BLOPS-6-Season-4-Keyart-01-06jun25$pt?$1200px$"
-          alt="Game 1"
-        />
+          alt="Game 1" />
       </div>
       <div>
-        <img
-          (click)="
+        <img (click)="
             changeImgUrl(
-              'https://gmedia.playstation.com/is/image/SIEPDC/Elden-Ring-Nightreign-Keyart-01-06feb25?$1200px$'
+              'https://gmedia.playstation.com/is/image/SIEPDC/silent-hill-f-hero-banner-desktop-01-en-10jun25?$4000px$'
             )
-          "
-          src="https://gmedia.playstation.com/is/image/SIEPDC/Elden-Ring-Nightreign-Keyart-01-06feb25?$1200px$"
-          alt="Game 1"
-        />
+          " src="https://gmedia.playstation.com/is/image/SIEPDC/silent-hill-the-short-f-keyart-01-en-10jun25?$1200px$"
+          alt="Game 1" />
       </div>
       <div>
         <img
+          (click)="changeImgUrl('https://gmedia.playstation.com/is/image/SIEPDC/game-range-2025-hero-desktop-01-en-27may25?$4000px$')"
           src="https://gmedia.playstation.com/is/image/SIEPDC/game-range-2025-keyart-01-en-27may25?$1200px$"
-          alt="Game 1"
-        />
+          alt="Game 1" />
+      </div>
+
+      <div>
+        <img
+          (click)="changeImgUrl('https://gmedia.playstation.com/is/image/SIEPDC/death-stranding-2-hero-desktop-01-en-10mar25?$4000px$')"
+          src="https://gmedia.playstation.com/is/image/SIEPDC/death-stranding-2-keyart-01-en-10mar25?$1200px$"
+          alt="Game 1" />
       </div>
       <div>
         <img
-          src="https://gmedia.playstation.com/is/image/SIEPDC/days-of-play-2025-ps-plus-keyart-02-22may25$en?$1200px$"
-          alt="Game 1"
-        />
-      </div>
-      <div>
-        <img
-          src="https://gmedia.playstation.com/is/image/SIEPDC/madden-nfl-26-deluxe-edition_keyart-01-en-29may25?$1200px$"
-          alt="Game 1"
-        />
-      </div>
-      <div>
-        <img
-          src="https://gmedia.playstation.com/is/image/SIEPDC/zenless-zone-zero-keyart-01-en-21may25?$1200px$"
-          alt="Game 1"
-        />
+          (click)="changeImgUrl('https://gmedia.playstation.com/is/image/SIEPDC/Stellar-Blade-Complete-Edition-Hero-Desktop-01-10jun25?$4000px$')"
+          src="https://gmedia.playstation.com/is/image/SIEPDC/Stellar-Blade-Complete-Edition-Keyart-01-10jun25?$1200px$"
+          alt="Game 1" />
       </div>
     </div>
+  </div>
+  <div class="news-console">
+    <div class="news-console__text">
+        <h1>
+          Conheça todos os consoles e acessórios do PS5
+        </h1>
+        <p>Console Playstation 5</p>
+      <span class="news-console__subtitle">
+        Descubra a mais nova geração de jogos incríveis para PlayStation.
+      </span>
+      <div>
+        <button>
+          Saiba mais
+        </button>
+        <button>
+          Comprar agora
+        </button>
+      </div>
+    </div>
+    <div class="news-console__image">
+      <img
+        src="https://gmedia.playstation.com/is/image/SIEPDC/ps5-slim-disc-console-featured-hardware-image-block-02-en-15nov23?$1600px$"
+        alt="Playstation 5 branco com controle ao lado direito">
+    </div>
+
   </div>
 </div>
